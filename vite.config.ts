@@ -11,7 +11,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/', // no subdirectory needed
+  base: '/congenial-dollop/', // no subdirectory needed
   plugins: [react(), tailwindcss()],
-  
 })
+
